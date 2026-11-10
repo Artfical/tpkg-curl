@@ -1,0 +1,25 @@
+{
+ "name": "curl",
+ "version": "8.23.0",
+ "license": "curl",
+ "homepage": "https://curl.se",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [],
+ "desc": "curl 8.23.0: the curl command and libcurl (HTTP and HTTPS; 64-bit tOS)",
+ "file": "curl-8.23.0.tpkg",
+ "size": 443106,
+ "sha256": "0be7f13d8412749166b716f2e57aa06537456df647283a30a296904f504cdc8a",
+ "unpacked": 993168,
+ "min_build": 608,
+ "depends": [
+  "openssl",
+  "zlib",
+  "ca-certificates"
+ ],
+ "commands": {
+  "curl": "bin/curl"
+ }
+}
